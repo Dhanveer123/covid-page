@@ -1,0 +1,86 @@
+*{margin: 0;padding: 0; font-family: Arial, Helvetica, sans-serif;}
+nav{
+    padding: 0 22%;
+    background-color:brown;
+}
+nav a{
+    display: inline-block;
+    margin: 0 3%;
+    padding: 0.5em 0;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover{
+    background-color: rgb(70, 11, 11);
+}
+
+main{
+    padding: 0 25%;
+    background-color: rgb(13, 55, 77);
+    color: rgb(164, 164, 5);
+}
+main h1,h2{
+
+    padding:0.5em;
+}
+main p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+main table
+{
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+   
+}
+main table th
+{
+    background-color: olive;
+}
+main table th,td
+{
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    padding: 2px;
+    width: max-content;
+}
+main table tr:nth-child(even)
+{
+    color: rgb(239, 229, 208);
+    background-color: rgb(169, 169, 122);
+}
+main table tr:nth-child(3)
+{
+    color: rgb(200, 18, 18);
+    background-color: rgb(222, 146, 146);
+}
+main table tr:nth-child(5)
+{
+    color: rgb(239, 229, 208);
+    background-color:rgb(146, 146, 34);
+}
+main img
+{
+    width: 100%;
+}
+img+p{
+
+    margin: 20px 0;
+}
+img+p span
+{
+    color: white;
+}
+p+input
+{
+    padding: 10px 30px;
+    background-color: rgb(236, 43, 43);
+    border: 0px;
+    margin:10% 43% 20% ;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
